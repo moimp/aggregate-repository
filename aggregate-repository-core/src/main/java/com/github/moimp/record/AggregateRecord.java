@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 import static com.github.moimp.aggregate.Aggregate.FIRST_VERSION;
 
-@Value
+@Value(staticConstructor = "of")
 public class AggregateRecord<ID> {
     ID id;
     String serialized;

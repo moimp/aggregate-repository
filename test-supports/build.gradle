@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+    id("io.freefair.lombok") version "8.0.1"
+}
+
+sourceCompatibility = '11'
+
+dependencies {
+    implementation project(':aggregate-repository-core')
+}

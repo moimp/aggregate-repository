@@ -4,3 +4,5 @@ include 'aggregate-repository-core'
 
 include 'aggregate-repository-jdbc-template'
 include 'aggregate-repository-inmemory'
+
+include 'test-supports'
