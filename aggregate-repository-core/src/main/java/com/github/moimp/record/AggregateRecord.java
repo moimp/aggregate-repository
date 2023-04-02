@@ -1,12 +1,12 @@
-package com.github.dhslrl321.record;
+package com.github.moimp.record;
 
-import com.github.dhslrl321.aggregate.Aggregate;
-import com.github.dhslrl321.supports.SerializerHolder;
+import com.github.moimp.aggregate.Aggregate;
+import com.github.moimp.supports.SerializerHolder;
 import lombok.Value;
 
 import java.time.LocalDateTime;
 
-import static com.github.dhslrl321.aggregate.Aggregate.FIRST_VERSION;
+import static com.github.moimp.aggregate.Aggregate.FIRST_VERSION;
 
 @Value
 public class AggregateRecord<ID> {

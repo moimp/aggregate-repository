@@ -1,4 +1,4 @@
-package com.github.dhslrl321.record;
+package com.github.moimp.record;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,9 +1,9 @@
-package com.github.dhslrl321.template;
+package com.github.moimp.template;
 
-import com.github.dhslrl321.aggregate.Aggregate;
-import com.github.dhslrl321.aggregate.AggregateRepository;
-import com.github.dhslrl321.record.AggregateRecord;
-import com.github.dhslrl321.record.AggregateRecordRepository;
+import com.github.moimp.aggregate.Aggregate;
+import com.github.moimp.aggregate.AggregateRepository;
+import com.github.moimp.record.AggregateRecord;
+import com.github.moimp.record.AggregateRecordRepository;
 import lombok.AllArgsConstructor;
 
 import java.util.Optional;

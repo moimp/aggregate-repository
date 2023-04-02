@@ -1,4 +1,4 @@
-package com.github.dhslrl321.supports;
+package com.github.moimp.supports;
 
 public class AggregateSerializeException extends RuntimeException{
     public AggregateSerializeException(Throwable cause) {

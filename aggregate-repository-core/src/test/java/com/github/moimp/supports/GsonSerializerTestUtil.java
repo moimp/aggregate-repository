@@ -1,6 +1,6 @@
-package com.github.dhslrl321.supports;
+package com.github.moimp.supports;
 
-import com.github.dhslrl321.fixture.*;
+import com.github.moimp.fixture.*;
 import lombok.Value;
 import org.junit.jupiter.api.Test;
 

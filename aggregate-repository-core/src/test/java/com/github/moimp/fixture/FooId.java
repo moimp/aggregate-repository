@@ -1,4 +1,4 @@
-package com.github.dhslrl321.fixture;
+package com.github.moimp.fixture;
 
 import lombok.Value;
 

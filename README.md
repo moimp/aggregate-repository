@@ -1,7 +1,5 @@
 # Aggregate Repository
 
-this was started by yangwonsu
-
 ## Core Concept
 
 > 이 repository 는 json 을 이용하여 aggregate 를 영속화 하는 과정의 복잡성을 줄여주고 aggregate 의 schema version 을 관리할 수 있도록 도와줍니다. 

@@ -1,4 +1,4 @@
-package com.github.dhslrl321.fixture;
+package com.github.moimp.fixture;
 
 public class FooFixtures {
     public static Foo newFoo(long id, String name, int age) {

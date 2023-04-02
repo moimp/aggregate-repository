@@ -1,6 +1,6 @@
-package com.github.dhslrl321.fixture;
+package com.github.moimp.fixture;
 
-import com.github.dhslrl321.aggregate.Aggregate;
+import com.github.moimp.aggregate.Aggregate;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.github.dhslrl321.aggregate;
+package com.github.moimp.aggregate;
 
 import java.util.Optional;
 

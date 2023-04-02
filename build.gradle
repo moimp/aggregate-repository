@@ -1,5 +1,5 @@
 allprojects {
-    group = 'com.github.dhslrl321'
+    group = 'com.github.moimp'
     version = '0.0.1-SNAPSHOT'
 
     repositories {
