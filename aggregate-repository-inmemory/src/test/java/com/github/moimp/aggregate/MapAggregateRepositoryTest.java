@@ -5,7 +5,7 @@ import com.github.moimp.aggregate.fixture.FooFixtures;
 import com.github.moimp.aggregate.fixture.FooId;
 import com.github.moimp.supports.SerializerHolder;
 import com.github.moimp.supports.Shaper;
-import com.github.moimp.template.GeneralAggregateRepository;
+import com.github.moimp.general.GeneralAggregateRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

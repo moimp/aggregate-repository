@@ -1,10 +1,9 @@
-package com.github.moimp.template;
+package com.github.moimp.general;
 
 import com.github.moimp.aggregate.Aggregate;
 import com.github.moimp.aggregate.AggregateRepository;
 import com.github.moimp.record.AggregateRecord;
 import com.github.moimp.record.AggregateRecordRepository;
-import com.github.moimp.supports.SerializerHolder;
 import com.github.moimp.supports.Shaper;
 import lombok.AllArgsConstructor;
 
