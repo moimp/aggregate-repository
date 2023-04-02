@@ -6,13 +6,13 @@ import java.lang.reflect.Type;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class GsonSerializerUtil implements SerializerUtil {
+public class GsonSerializer implements SerializerUtil {
 
     private final Gson gson = new GsonBuilder()
             .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeSerializer())
             .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeDeserializer())
             .serializeNulls()
-            .create();;
+            .create();
 
     @Override
     public String serialize(Object object) {

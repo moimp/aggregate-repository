@@ -2,11 +2,13 @@ package com.github.moimp.record;
 
 import com.github.moimp.aggregate.Aggregate;
 import com.github.moimp.supports.SerializerHolder;
+import com.github.moimp.supports.SerializerType;
 import lombok.Value;
 
 import java.time.LocalDateTime;
 
 import static com.github.moimp.aggregate.Aggregate.FIRST_VERSION;
+import static com.github.moimp.supports.SerializerType.GSON;
 
 @Value(staticConstructor = "of")
 public class AggregateRecord<ID> {
@@ -21,7 +23,7 @@ public class AggregateRecord<ID> {
         ID id = aggregate.getId();
         long version = aggregate.getVersion();
         // TODO v up
-        String serialized = SerializerHolder.getSerializer().serialize(aggregate);
+        String serialized = SerializerHolder.getSerializer(GSON).serialize(aggregate);
         LocalDateTime occurredAt = LocalDateTime.now();
         LocalDateTime modifiedAt = LocalDateTime.now();
 

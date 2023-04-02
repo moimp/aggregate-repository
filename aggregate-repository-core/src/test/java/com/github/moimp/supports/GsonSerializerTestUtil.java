@@ -1,14 +1,13 @@
 package com.github.moimp.supports;
 
 import com.github.moimp.fixture.*;
-import lombok.Value;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class GsonSerializerTestUtil {
 
-    SerializerUtil sut = new GsonSerializerUtil();
+    SerializerUtil sut = new GsonSerializer();
 
     @Test
     void can_serialize() {
