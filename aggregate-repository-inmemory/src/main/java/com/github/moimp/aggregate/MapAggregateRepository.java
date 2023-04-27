@@ -14,10 +14,10 @@ public class MapAggregateRepository<ID> extends AbstractAggregateRecordRepositor
     @Override
     protected void modify(AggregateRecord<ID> versioned) {
         Optional<AggregateRecord<ID>> record = findBy(versioned.getId());
-        if(record.isEmpty()) {
+        if (record.isEmpty()) {
             throw new IllegalStateException();
         }
-        record.ifPresent((r) ->{
+        record.ifPresent((r) -> {
             records.put(r.getId(), r);
         });
     }
@@ -30,7 +30,7 @@ public class MapAggregateRepository<ID> extends AbstractAggregateRecordRepositor
     @Override
     protected AggregateRecord<ID> queryOneBy(ID id) {
         AggregateRecord<ID> find = records.get(id);
-        if(find == null) {
+        if (find == null) {
             return null;
         }
         return AggregateRecord.of(

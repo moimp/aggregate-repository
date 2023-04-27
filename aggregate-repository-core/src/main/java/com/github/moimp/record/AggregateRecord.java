@@ -1,14 +1,13 @@
 package com.github.moimp.record;
 
 import com.github.moimp.aggregate.Aggregate;
-import com.github.moimp.supports.SerializerHolder;
-import com.github.moimp.supports.SerializerType;
+import com.github.moimp.mapping.serializer.SerializerHolder;
 import lombok.Value;
 
 import java.time.LocalDateTime;
 
 import static com.github.moimp.aggregate.Aggregate.FIRST_VERSION;
-import static com.github.moimp.supports.SerializerType.GSON;
+import static com.github.moimp.mapping.serializer.SerializerType.GSON;
 
 @Value(staticConstructor = "of")
 public class AggregateRecord<ID> {

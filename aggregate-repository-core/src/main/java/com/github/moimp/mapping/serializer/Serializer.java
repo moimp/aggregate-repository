@@ -1,6 +1,6 @@
-package com.github.moimp.supports;
+package com.github.moimp.mapping.serializer;
 
-public interface SerializerUtil {
+public interface Serializer {
 
     String serialize(Object object);
 
